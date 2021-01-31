@@ -13,7 +13,7 @@ public class PointTest {
         int x2 = 5;
         int x3 = 2;
         int x4 = 8;
-        double expected = 7.810249675906654;
+        double expected = 7.81;
         double rsl1 = Point.distance(0, 5, 2, 8);
         Assert.assertEquals(expected, rsl1, 0.01);
     }
@@ -24,7 +24,7 @@ public class PointTest {
         int x2 = 10;
         int x3 = 2;
         int x4 = 15;
-        double expected = 15.264337522473747;
+        double expected = 15.264;
         double rsl2 = Point.distance(2, 10, 2, 15);
         Assert.assertEquals(expected, rsl2, 0.01);
 
@@ -36,7 +36,7 @@ public class PointTest {
         int x2 = 4;
         int x3 = 2;
         int x4 = 7;
-        double expected = 5.830951894845301;
+        double expected = 5.83;
         double rsl3 = Point.distance(1, 4, 2, 7);
         Assert.assertEquals(expected, rsl3, 0.01);
     }
