@@ -16,9 +16,9 @@ public class SwitchArray {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4, 5, 6};
+        int[] nums = new int[]{1, 2, 3, 4};
         int[] rsl1 = swapBorder(nums);
-        int[] rsl2 = swap(nums, 3, 2);
+        int[] rsl2 = swap(nums, 0, 3);
         for (int index = 0; index < rsl1.length; index++) {
             System.out.println(rsl1[index]);
         }
