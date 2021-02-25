@@ -18,11 +18,11 @@ public class SwitchArray {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 4};
         int[] rsl1 = swapBorder(nums);
-        int[] rsl2 = swap(nums, 0, 3);
         for (int index = 0; index < rsl1.length; index++) {
             System.out.println(rsl1[index]);
         }
         System.out.println();
+        int[] rsl2 = swap(nums, 2, 3);
         for (int index = 0; index < rsl2.length; index++) {
             System.out.println(rsl2[index]);
 
